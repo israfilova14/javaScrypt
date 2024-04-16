@@ -1,0 +1,19 @@
+ .success,
+ .error{
+    display:none;
+ }
+ .success{
+    color: green;
+ }
+ .error{
+    color: red;
+ }
+
+ div{
+    border: 1px solid black;
+ }
+ .text1,
+ .text2,
+ .text3{
+    display: none;
+ }

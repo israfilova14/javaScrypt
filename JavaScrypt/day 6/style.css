@@ -1,0 +1,28 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.homePage,
+.basket,
+.wishList {
+    border: 1px solid gray;
+    width: 33%;
+}
+.prdBox {
+    border: 1px solid gray;
+}
+.prdImg {
+    width: 100px;
+    height: 100px;
+}
+.prdButtonWish{
+    border: none;
+    border-radius: 4px;
+    background-color: pink;
+ }
+ .prdButton{
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+ }

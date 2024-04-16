@@ -129,13 +129,13 @@
 //         console.log(arr[i=1]);
 //         break;
 //     }
-//  }
- const arr= [2,5,-4,-9,0,18,30,-40,43];
- let max=arr[0];
- let min=arr[0];
- for(let i=0 ;i<arr.length;i++){
+// //  }
+//  const arr= [2,5,-4,-9,0,18,30,-40,43];
+//  let max=arr[0];
+//  let min=arr[0];
+//  for(let i=0 ;i<arr.length;i++){
 
- }
+//  }
 // {
 //  id:27,
 //     name:"Aynur",
@@ -407,33 +407,93 @@ let students = [
     salaryAZN: 100,
   },
 ];
- 
-for(let i=0;i<students.length;i++){
-    console.log(students[i]);
-}
-for (let i=0;i<students.length; i++){
-    console.log("Ad:",students[i].name);
-}
-for(let i=0;i<students.length;i++){
-    console.log("Ad:",students[i].name,"Soyad:",students[i].name);
+// let a=5;
+// a=6
+// let person={
+//   name:"Aynur",
+//   surname: "Israfilova",
+//   age: 20,
+// }
+// console.log(person);
+// person.SalaryUSD="$100"
+// for(let i=0;i<students.length;i++){
+//   console.log(students[i]);
+//   students[i].salaryUSD="";
+   
+// }
+// for(let i=0;i<students.length;i++){
+//   console.log(students[i].teacher)
+// }
+  
+//  Task1
+// for(let i=0;i<students.length;i++){
+//     console.log(students[i]);
+// }
 
-}
 
-for(let i=0;i<students.length;i++){
-        if(students[i].fail==true){
-        console.log( students[i]);
-        }
-}
-let maxAvg=students[0].avgPoint;
-let
-for (let i=0;i<students.length;i++){
-    if(maxPoint>avgPoint){
-        maxPoint=max;
-        console.log(max);
-    }
-    // if(students[i].avgPoint==90){
-    //     console.log(students[i]);
-    // }
-}
-console.log(students[i].maxPoint==max);
+// Task2
+// for (let i=0;i<students.length; i++){
+//     console.log("Ad:",students[i].name);
+// }
+// for(let i=0;i<students.length;i++){
+//     console.log("Ad:",students[i].name,"Soyad:",students[i].name);
+
+// }
+
+
+// Task3
+// for(let i=0;i<students.length;i++){
+//         if(students[i].fail==true){
+//         console.log( students[i]);
+//         }
+// }
+// let maxAvg=students[0].avgPoint;
+// let
+// for (let i=0;i<students.length;i++){
+//     if(maxPoint>avgPoint){
+//         maxPoint=max;
+//         console.log(max);
+//     }
+//     // if(students[i].avgPoint==90){
+//     //     console.log(students[i]);
+//     // }
+// }
+// console.log(students[i].maxPoint==max);
+// let salaryAZN
+// for(let i=0; i<students.length;i++){
+//     console.log(students[i] ,"salaryAZN:$100");{
+//              console.log(students[i]);
+//     }
+// }
+
  
+// task
+//  let number=6789
+
+//  let str=String(number)
+//  let sum1=0;
+//  let sum2=0;
+//  for(let i=0;i<str.length;i++){
+//   if(i%2==0){
+//     // console.log(str[i]);
+//      sum1+=Number(str[i])
+//   }
+//   else if (i%2!==0){
+//     // console.log(str[i]);
+//     sum2+=Number(str[i])
+//   }
+//  }
+//  console.log(sum1);
+//  console.log(sum2);
+//  console.log(sum1*sum2);
+// Task
+const filteredArr=[];
+for(let i=0; i<students[i].length;i++){
+  console.log(students[i].age);
+  console.log(students[i].gender);
+     if(students[i].includes (age),students[i].includes(gender)){
+    filteredArr.push(students[i].age)
+    filteredArr.push(students[i].gender)
+     }
+}
+ console.log(filteredArr);
